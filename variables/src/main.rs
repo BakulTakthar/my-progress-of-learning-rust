@@ -33,7 +33,7 @@ fn main() {
 
     println!("the value of g is {}", g);
 
-    //! the differeneces includes
+    //? the differeneces includes
     
     //todo      let allows you change all the aspects of a variable along with the 
     //todo      data type and all the aspects like u32 and u64 in the integer
@@ -43,4 +43,15 @@ fn main() {
     //todo      mutable variableit does not let you change the data types or its instances
     //todo      and just the value 
     
+
+    //? another example from the official rust book
+
+    let spaces = "   ";
+
+    
+    println!("spaces is {}.", spaces);
+
+    let spaces = spaces.len();
+
+    println!("spaces is {}", spaces);
 }
